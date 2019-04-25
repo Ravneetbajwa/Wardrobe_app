@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">styleme</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_activity_take_picture">TakePicture</string>
+    <string name="title_activity_dress">Dress</string>
+    <string name="title_activity_generate__outfit">Generate_Outfit</string>
+    <string name="title_activity_outfit_gallery">OutfitGallery</string>
+    <string name="title_activity_dresses_collection">DressesCollection</string>
+    <string name="title_activity_outfit__collection">Outfit_Collection</string>
+</resources>

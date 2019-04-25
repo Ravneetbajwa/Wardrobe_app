@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TakePicture"
+    tools:showIn="@layout/activity_take_picture">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Choose Type"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        app:fontFamily="cursive"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upper Body"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:fontFamily="casual"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <ListView
+        android:id="@+id/list_Upper"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+
+    <TextView
+        android:id="@+id/lower_Body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lower Body"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:fontFamily="casual"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <ListView
+        android:id="@+id/list_Lower"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shoes"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:fontFamily="casual"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <ListView
+        android:id="@+id/list_Shoes"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:fontFamily="casual"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <ListView
+        android:id="@+id/list_Accessories"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>
